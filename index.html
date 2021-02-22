@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Batatabit</title>
+    <link rel="icon" href="./Assets/imgs/batata.svg" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="./Assets/imgs/logotipo.svg" alt="" />
+      <div class="header__title--container">
+        <h1>La próxima revolución en el intercambio de criptomonedas.</h1>
+        <p>Batatabit te ayuda a navegar entre los diferentes precios y tendencias.</p>
+        <a class="header__button" href="#plans">Conoce Nuestros Planes <span></span></a>
+      </div>
+    </header>
+    <main>
+      <section class="main__exchange--container">
+        <div class="backgroundImg"></div>
+        <div class="main__exchange--title">
+          <h2>Visibilizamos todas las tasas de cambio.</h2>
+          <p>Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
+        </div>
+        <section class="main__table--container">
+          <div class="main__currency--table" id="currency-table">
+            <div class="main__curency--arrow" id="currency-arrow"></div>
+            <h3 class="currency-table--title">Monedas</h3>
+            <div class="main__currency--grid">
+              <div class="currency__table--coin">
+                <h4>Bitcoin</h4>
+              </div>
+              <div class="currency__table--price">
+                <p>$ 1.96 <span class="arrow--down"></span></p>
+              </div>
+              <div class="currency__table--coin">
+                <h4>Etherum</h4>
+              </div>
+              <div class="currency__table--price">
+                <p>$ 0.07 <span class="arrow--up"></span></p>
+              </div>
+              <div class="currency__table--coin">
+                <h4>Ripple</h4>
+              </div>
+              <div class="currency__table--price">
+                <p>$ 2.15 <span class="arrow--down"></span></p>
+              </div>
+              <div class="currency__table--coin">
+                <h4>Stellar</h4>
+              </div>
+              <div class="currency__table--price">
+                <p>$ 4.46 <span class="arrow--down"></span></p>
+              </div>
+            </div>
+            <div class="currency__table--date">
+              <p><b>Actualizado:</b> 19 Julio 23:45</p>
+            </div>
+          </div>
+
+          <div class="main__comission--table" id="comission-table">
+            <div class="main__comission--arrow" id="comission-arrow"></div>
+            <h3 class="comission-table--title">Comisiones</h3>
+            <div class="main__currency--grid">
+              <div class="currency__table--coin">
+                <h4>Bitrade</h4>
+              </div>
+              <div class="currency__table--price">
+                <p>$ 12.96</p>
+              </div>
+              <div class="currency__table--coin">
+                <h4>Bitpreco</h4>
+              </div>
+              <div class="currency__table--price">
+                <p>$ 13.07</p>
+              </div>
+              <div class="currency__table--coin">
+                <h4>Novadax</h4>
+              </div>
+              <div class="currency__table--price">
+                <p>$ 13.15</p>
+              </div>
+              <div class="currency__table--coin">
+                <h4>Coinext</h4>
+              </div>
+              <div class="currency__table--price">
+                <p>$ 14.96</p>
+              </div>
+            </div>
+            <div class="comission__table--date">
+              <p><b>Actualizado:</b> 19 Julio 23:45</p>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="main__product--detail">
+        <span class="product__detail--logo"></span>
+        <div class="product__detail--title">
+          <h2>Creamos un producto sin comparación.</h2>
+          <p>Confiable y diseñado para su uso diario.</p>
+        </div>
+        <section class="product-cards--container">
+          <article class="product-deatil--card">
+            <span class="clock icon-card"></span>
+            <p class="product-card--title">Tiempo real</p>
+            <p class="product-card--body">
+              Nuestro API toma información minuto a minuto sobre las tasas que más determinan el comportamiento.
+            </p>
+          </article>
+          <article class="product-deatil--card">
+            <span class="eye icon-card"></span>
+            <p class="product-card--title">No hay tasas escondidas</p>
+            <p class="product-card--body">
+              Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás
+              adquiriendo.
+            </p>
+          </article>
+          <article class="product-deatil--card">
+            <span class="dollar-sign icon-card"></span>
+            <p class="product-card--title">Compara monedas</p>
+            <p class="product-card--body">
+              Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás
+              adquiriendo.
+            </p>
+          </article>
+          <article class="product-deatil--card">
+            <span class="check-circle icon-card"></span>
+            <p class="product-card--title">Información confiable</p>
+            <p class="product-card--body">
+              Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.
+            </p>
+          </article>
+        </section>
+      </section>
+      <section class="main__bitcoin--img">
+        <h2>Conócelo hoy.</h2>
+      </section>
+      <section id="plans" class="main__plans--container">
+        <div class="plans--title">
+          <h2>Escoge el plan que mejor se ajuste a ti.</h2>
+          <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
+        </div>
+        <section class="plans-container--slider">
+          <div class="plans-container--spacer"></div>
+          <article class="plans-container--card">
+            <p class="basic">Básico</p>
+            <div class="plan__info--container">
+              <h3 class="plan__card--title">Pago Mensual</h3>
+              <p class="plan__card--price"><span>$</span>19</p>
+              <p class="plan__card--saving">*Plan básico con todos los beneficios.</p>
+              <button class="plan__card--ca">Escoger este <span></span></button>
+            </div>
+          </article>
+          <article class="plans-container--card">
+            <p class="recommended">Recomendado</p>
+            <div class="plan__info--container">
+              <h3 class="plan__card--title">Pago Anual</h3>
+              <p class="plan__card--price"><span>$</span>99</p>
+              <p class="plan__card--saving">*Ahorras $129 comparado al plan mensual.</p>
+              <button class="plan__card--ca">Escoger este <span></span></button>
+            </div>
+          </article>
+          <article class="plans-container--card special--card">
+            <p class="unlimited">Ilimitado</p>
+            <div class="plan__info--container">
+              <h3 class="plan__card--title">De por Vida</h3>
+              <p class="plan__card--price"><span>$</span>199</p>
+              <p class="plan__card--saving">*Oferta de tiempo limitado, incluye todos los beneficios.</p>
+              <button class="plan__card--ca">Escoger este <span></span></button>
+            </div>
+          </article>
+          <div class="plans-container--spacer"></div>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <section class="footer__left">
+        <ul>
+          <li><a href="#">Linkedin</a></li>
+          <li><a href="#">Crunchbase</a></li>
+          <li><a href="#">Hackernews</a></li>
+        </ul>
+      </section>
+      <section class="footer__right">
+        <img src="./Assets/imgs/footer-logo.svg" alt="Logo de Batatabit 2020" />
+      </section>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

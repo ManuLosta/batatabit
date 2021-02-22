@@ -1,0 +1,44 @@
+.main__table--container {
+  display: flex;
+  justify-content: center;
+}
+
+.main__comission--table {
+  position: static;
+  opacity: 1;
+  margin: 0;
+}
+
+.main__currency--table {
+  margin: 0;
+}
+
+.main__currency--table .main__curency--arrow {
+  display: none;
+}
+
+.product-cards--container {
+  display: flex;
+  max-width: 1200px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.product-cards--container .product-deatil--card {
+  width: 45%;
+  margin: 15px 15px;
+}
+
+.main__bitcoin--img {
+  background-image: url('../Assets/imgs/bitcoinbaby2x.jpg');
+}
+
+.plans-container--slider {
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.plans-container--slider .plans-container--spacer {
+  display: none;
+}
